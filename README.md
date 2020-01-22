@@ -1,5 +1,7 @@
 # PLC-Gummy-candy-machine
 
+[![Languages](https://img.shields.io/badge/Language-XSOFT--CoDeSys-blue?style=plastic)]()
+
 ## Statement of the problem
 
 The problem is to implement an automation of a gummy candy machine (Figure 1). Used software: CoDeSys (LD).
