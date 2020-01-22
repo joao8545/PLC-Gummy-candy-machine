@@ -1,7 +1,7 @@
 # PLC-Gummy-candy-machine
-## Implementation of an automation problem in CoDeSys
+## Statement of the problem
 
-The problem is to implement an automation of a gummy candy machine (Figure 1). Used software: CoDeSys (LD, FBD and ST).
+The problem is to implement an automation of a gummy candy machine (Figure 1). Used software: CoDeSys (LD).
 
 Gummy candy machine operation starts by the press of Start (NO contact) pushbutton and stops at any time by Stop (NC contact) pushbutton press. During the operation green indicator lamp should light permanently.
 
