@@ -1,4 +1,5 @@
 # PLC-Gummy-candy-machine
+
 ## Statement of the problem
 
 The problem is to implement an automation of a gummy candy machine (Figure 1). Used software: CoDeSys (LD).
@@ -14,3 +15,34 @@ After mixing the drain magnetic valve is necessary to open with 2 s delay. The l
 The level switch output signal is a short pulse, which the programmer simulates by an NO contact pushbutton press. Programmer actuates it during the simulation.
 
 Candy mixing can be restarted by Start pushbutton repress.
+
+## PLC Contacts
+
+In the table below there is the relation of the PLC input and the variable name
+
+PLC Input | Variable name
+------------ | -------------
+Start Pushbutton | Start_PB
+Stop Pushbutton | Stop_PB
+Level Switch | Level_SW
+
+
+In the table below there is the relation of the PLC output and the variable name
+
+PLC Output | Variable name
+------------ | -------------
+Operation Lamp | OpLamp
+Jelly Magnetic Valve | Red_V
+Colourant Magnetic Valve | Blue_V
+Flavour Magnetic Valve | Green_V
+Drain Magnetic Valve | Drain_V
+Clockwise Contactor | Right_C
+Anticlockwise Contactor | Left_C
+
+## Solution implementation
+
+
+![PLC_VISU](https://github.com/joao8545/PLC-Gummy-candy-machine/blob/master/Visu.PNG)
+
+
+In the image above there is a proposed visualization for the problem. There it is possible to follow al the elapsed time in each TON and also see the state of each PLC output.
