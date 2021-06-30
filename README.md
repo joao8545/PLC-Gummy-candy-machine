@@ -47,4 +47,4 @@ Anticlockwise Contactor | Left_C
 ![PLC_VISU](https://github.com/joao8545/PLC-Gummy-candy-machine/blob/master/Visu.PNG)
 
 
-In the image above there is a proposed visualization for the problem. There it is possible to follow al the elapsed time in each TON and also see the state of each PLC output.
+In the image above there is a proposed visualization for the problem. There it is possible to follow all the elapsed time in each TON and also see the state of each PLC output.
